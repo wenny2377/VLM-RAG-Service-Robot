@@ -107,8 +107,8 @@ Both indices are updated continuously as new observations arrive.
 
 | Key | Scenario | Demonstrates |
 |-----|---------|-------------|
-| `[1]` | Mom: "我餓了" → kitchen apple | RAG personalization |
-| `[2]` | Dad: "我餓了" → sofa banana | Same query, different user → different result |
+| `[1]` | Mom: "I am hungry" → kitchen apple | RAG personalization |
+| `[2]` | Dad: "I am hungry" → sofa banana | Same query, different user → different result |
 | `[3]` | Mom sits silently → robot proactively offers | Manifold proactive prediction |
 | `[4]` | Banana removed → robot suggests apple instead | Dynamic environment awareness |
 | `[R]` | Reset all to initial state | — |
