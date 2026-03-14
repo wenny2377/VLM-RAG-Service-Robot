@@ -16,11 +16,11 @@
 ![LLM](https://img.shields.io/badge/LLM-Gemma3_4b-FF6F00?style=flat-square)
 ![VLM](https://img.shields.io/badge/VLM-LLaVA--phi3-7C3AED?style=flat-square)
 
-> **⚠️ Repository Status:** Core AI modules are currently private pending thesis defence and publication (Expected Jul 2026). This repository contains the Unity frontend, system architecture overview, and API specifications.
+> **Repository Status:** Core AI modules are currently private pending thesis defence and publication (Expected Jul 2026). This repository contains the Unity frontend, system architecture overview, and API specifications.
 
 ---
 
-## 📌 What This System Does
+## Overview
 
 A home service robot that understands **who you are** and **what you need** — without being manually programmed with rules.
 
@@ -31,7 +31,7 @@ A home service robot that understands **who you are** and **what you need** — 
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -69,7 +69,7 @@ A home service robot that understands **who you are** and **what you need** — 
 
 ---
 
-## 🧠 Core Components
+## Core Components
 
 ### Perception Engine
 Continuously observes the home environment via VLM (LLaVA-phi3). When a user is active in a room, the Unity frontend selects optimal camera viewpoints, renders off-screen images, and posts them to the backend. The perception engine extracts actions, interacting objects, and spatial relations — automatically building the knowledge base without manual annotation.
@@ -89,7 +89,7 @@ Both indices are updated continuously as new observations arrive.
 
 ---
 
-## 🎮 Unity Frontend
+## Unity Frontend
 
 ### Key Scripts
 
@@ -115,7 +115,7 @@ Both indices are updated continuously as new observations arrive.
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
 | Route | Direction | Purpose |
 |-------|-----------|---------|
@@ -129,7 +129,7 @@ Both indices are updated continuously as new observations arrive.
 
 ---
 
-## 🚀 Quick Start (Backend)
+## Quick Start
 
 ```bash
 # 1. Start MongoDB
@@ -150,7 +150,7 @@ python app.py   # serves on :5000
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -164,12 +164,12 @@ python app.py   # serves on :5000
 
 ---
 
-## 👤 Author
+## Author
 
 **Hui-Hsin Huang**
 M.S. Candidate, Computer Science — National Cheng Kung University
-📧 wenny2377@gmail.com
+Email: wenny2377@gmail.com
 
 ---
 
-*🔒 Core AI source code (RAG pipeline, Manifold engine, Perception engine, Memory modules) is private pending thesis defence and publication. Experimental results and technical details will be released upon publication — Expected: August 2026.*
+*Core AI source code (RAG pipeline, Manifold engine, Perception engine, Memory modules) is private pending thesis defence and publication. Experimental results and technical details will be released upon publication — Expected: August 2026.*
